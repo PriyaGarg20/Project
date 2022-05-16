@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign In</title>
+	<link rel="stylesheet" type="text/css" href="stylelogin.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="logo.png">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+	<script type="text/javascript" src="web.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Sign In</h2>
+				<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+				<input type="text" class="field" id="fname" placeholder="Your Name">
+				<input type="text" class="field" placeholder="Your Email">
+				<input type="text" class="field" placeholder="Phone">
+				<input type="text" class="field" placeholder="Password">
+				<button class="btn">Login</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
